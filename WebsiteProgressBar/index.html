@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script defer src="/js/script.js"></script>
+    <title>Webpage Scroll Progress Bar</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="progressBar">
+            <div class="colorFill"></div>
+        </div>
+    </div>
+
+    <div class="containerButton">
+        <button class="btn btn-danger m-1" id="mode" onclick="darkMode()">Dark Mode</button>
+    </div>
+    
+    <div class="container-fluid text-center">
+        <h1 class="text-center">IMDb Top 10 Movies</h1>
+        <div class="row">
+            <div class="col-lg-12 col-md-6 mb-4">
+                <div class="container h-100" id="one">
+                    <div class="row">
+                        <h3 class="col-12 title text-center h-100">1. The Shawshank Redemption (1994)</h3>
+                        <img src="/images/1.png" alt="Wait For Connection">
+                        <h5 class="description col-12">Over the course of several years, two convicts form a friendship, seeking consolation and, eventually, redemption through basic compassion.</h5>
+                        <p class="col-12"><strong>Director:-</strong> Frank Darabont, <strong>Writers:-</strong> Stephen King, Frank Darabont</p>
+                        <p class="col-12"><strong>Stars:-</strong> Tim Robbins, Morgan Freeman, Bob Gunton</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-6 mb-4">
+                <div class="container h-100" id="two">
+                    <div class="row">
+                        <h3 class="col-12 title text-center h-100">2. The Godfather (1972)</h3>
+                        <img src="/images/2.png" alt="Wait For Connection">
+                        <h5 class="description col-12">Don Vito Corleone, head of a mafia family, decides to hand over his empire to his youngest son Michael. However, his decision unintentionally puts the lives of his loved ones in grave danger.</h5>
+                        <p class="col-12"><strong>Director:-</strong> Francis Ford Coppola, <strong>Writers:-</strong>Mario PuzoFrancis, Ford Coppola</p>
+                        <p class="col-12"><strong>Stars:-</strong> Marlon Brando, Al Pacino, James Caan</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-6 mb-4">
+                <div class="container h-100" id="three">
+                    <div class="row">
+                        <h3 class="col-12 title text-center">3. The Dark Knight (2008)</h3>
+                        <img src="/images/3.png" alt="Wait For Connection">
+                        <h5 class="description col-12">When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.</h5>
+                        <p class="col-12"><strong>Director:-</strong> Christopher Nolan, <strong>Writers:-</strong> Jonathan Nolan, Christopher Nolan, David S. Goyer  </p>
+                        <p class="col-12"><strong>Stars:-</strong> Christian Bale, Heath Ledger, Aaron Eckhart</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-6 mb-4">
+                <div class="container h-100" id="four">
+                    <div class="row">
+                        <h3 class="col-12 title text-center">4. The Godfather Part II (1974)</h3>
+                        <img src="/images/4.png" alt="Wait For Connection">
+                        <h5 class="description col-12">The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.</h5>
+                        <p class="col-12"><strong>Director:-</strong> Francis Ford Coppola, <strong>Writers:-</strong>Francis Ford CoppolaMario Puzo </p>
+                        <p class="col-12"><strong>Stars:-</strong> Al Pacino, Robert De Niro, Robert Duvall</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-6 mb-4">
+                <div class="container h-100" id="five">
+                    <div class="row">
+                        <h3 class="col-12 title text-center">5. 12 Angry Men (1957)</h3>
+                        <img src="/images/5.png" alt="Wait For Connection">
+                        <h5 class="description col-12">The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict.</h5>
+                        <p class="col-12"><strong>Director:-</strong> Sidney Lumet, <strong>Writers:-</strong> Reginald Rose </p>
+                        <p class="col-12"><strong>Stars:-</strong> Henry Fonda, Lee J. Cobb, Martin Balsam</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-6 mb-4">
+                <div class="container h-100" id="six">
+                    <div class="row">
+                        <h3 class="col-12 title text-center">6. Schindler's List (1993)</h3>
+                        <img src="/images/6.png" alt="Wait For Connection">
+                        <h5 class="description col-12">In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.</h5>
+                        <p class="col-12"><strong>Director:-</strong> Steven Spielberg, <strong>Writers:-</strong> Thomas Keneally, Steven Zaillian</p>
+                        <p class="col-12"><strong>Stars:-</strong> Liam Neeson, Ralph Fiennes, Ben Kingsley</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-6 mb-4">
+                <div class="container h-100" id="seven">
+                    <div class="row">
+                        <h3 class="col-12 title text-center">7. The Lord of the Rings: The Return of the King (2003)</h3>
+                        <img src="/images/7.png" alt="Wait For Connection">
+                        <h5 class="description col-12">Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.</h5>
+                        <p class="col-12"><strong>Director:-</strong> Peter Jackson, <strong>Writers:-</strong> J.R.R. Tolkien, Fran Walsh, Philippa Boyens</p>
+                        <p class="col-12"><strong>Stars:-</strong> Elijah Wood, Viggo Mortensen, Ian McKellen</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-6 mb-4">
+                <div class="container h-100" id="eight">
+                    <div class="row">
+                        <h3 class="col-12 title text-center">8. Pulp Fiction (1994)</h3>
+                        <img src="/images/8.png" alt="Wait For Connection">
+                        <h5 class="description col-12">The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.</h5>
+                        <p class="col-12"><strong>Director:-</strong> Quentin Tarantino, <strong>Writers:-</strong> Quentin Tarantino, Roger Avary</p>
+                        <p class="col-12"><strong>Stars:-</strong> John Travolta, Uma Thurman, Samuel L. Jackson</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-6 mb-4">
+                <div class="container h-100" id="nine">
+                    <div class="row">
+                        <h3 class="col-12 title text-center">9. The Lord of the Rings: The Fellowship of the Ring (2001)</h3>
+                        <img src="/images/9.png" alt="Wait For Connection">
+                        <h5 class="description col-12">A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.</h5>
+                        <p class="col-12"><strong>Director:-</strong> Peter Jackson, <strong>Writers:-</strong> J.R.R. Tolkien, Fran Walsh, Philippa Boyens</p>
+                        <p class="col-12"><strong>Stars:-</strong> Elijah Wood, Ian McKellen, Orlando Bloom</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-6 mb-5">
+                <div class="container h-100" id="ten">
+                    <div class="row">
+                        <h3 class="col-12 title text-center">10. The Good, the Bad and the Ugly (1966)</h3>
+                        <img src="/images/10.png" alt="Wait For Connection">
+                        <h5 class="description col-12">A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.</h5>
+                        <p class="col-12"><strong>Director:-</strong> Sergio Leone, <strong>Writers:-</strong> Luciano Vincenzoni, Sergio Leone, Agenore Incrocci</p>
+                        <p class="col-12"><strong>Stars:-</strong> Clint Eastwood, Eli Wallach, Lee Van Cleef</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
